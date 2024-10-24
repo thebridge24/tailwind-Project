@@ -4,8 +4,23 @@
 
 * {
     font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 .logo img {
     height: 2rem
+}
+
+.section{
+    max-width:1700px;
+    width:100%;
+}
+nav ul li a {
+    transition: all 0.3s ;
+}
+nav ul li a:hover {
+   border-bottom: 4px solid #8d8d8d ;
+}
+button{
+    transition: all 0.3s ;
 }
