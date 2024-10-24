@@ -9,13 +9,14 @@ function Hero() {
 
                 <h1 className='text-7xl text-ofw-lt mb-6 '>Boost your<br /> business through <span className='text-tx-green'>online</span> marketing</h1>
 
-                <p className='w-1/2 tracking-wide text-ofw-lt text-lg mb-6'>Hey there! i'm Jessica Parker. Digital <br />
+                <p className='w-1/2 tracking-wide text-ofw-lt text-lg mb-6'> Hey there! i'm Jessica Parker. Digital <br />
                     business consultant focussed on online marketing and advertising.
                 </p>
 
                 <div className="buttons flex space-x-5">
                     <a href="#" className="btn-p">Let's talk</a>
-                    <a href="#" className="btn-s ">See case studies</a>
+                    <a href="#" className="btn-s ">See case studies
+                    </a>
                 </div>
                 </div>
             </div>

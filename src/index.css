@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*{
     font-family: Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: #2CF85A;
+    color:#1C3434;
+}
 .logo img {
     height: 2rem
 }
@@ -15,15 +19,19 @@
     max-width:1700px;
     width:100%;
 }
+
 nav ul li a {
     transition: all 0.3s ;
 }
+
 nav ul li a:hover {
    border-bottom: 4px solid #8d8d8d ;
 }
+
 button{
     transition: all 0.3s ;
 }
+
 .btn-h {
     transition: all 0.3s ;
 }
@@ -34,16 +42,19 @@ button{
 .btn-h:active{
     box-shadow: 1px 0 3px #0000001c ;
 }
+
 .height {
-    height: 37rem;
+   padding: 6rem 3rem;
 }
+
 .btn-p {
     transition: all 0.3s ;
     background-color: #2CF85A;
     color: #1C3434;
     padding: 1rem 1.25rem;
-    border-radius: 0.375rem
+    border-radius: 0.375rem;
 }
+
 .btn-p:hover{
     box-shadow: 0px 0 25px #2cf85c7c ;
 }
@@ -51,6 +62,7 @@ button{
 .btn-p:active{
     box-shadow: 0px 0 5px #2cf85c7c ;
 }
+
 .btn-s {
     transition: all 0.3s ;
     color: #2CF85A;
@@ -66,5 +78,5 @@ button{
     border-radius: 3.5rem;
     right: 10%;
     top: 5%;
-    box-shadow: -10px 10px 20px #0000005b ;
+    box-shadow: -10px 10px 20px #0000005b;
 }
