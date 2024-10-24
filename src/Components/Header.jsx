@@ -23,7 +23,7 @@ function Header() {
                 </ul>
 
                 <div className="flex items-center space-x-6 ml-7">
-                    <button className='text-lg bg-dr-bg px-5 py-2 font-bold hover:bg-transparent hover:text-dr-bg border text-ofw-lt rounded-md'>Buy templates</button>
+                    <button className='text-lg btn-h bg-dr-bg px-5 py-2 font-bold hover:bg-transparent hover:text-dr-bg border text-ofw-lt rounded-md'>Buy templates</button>
                     <button className='text-lg bg-gry-lt text-dr-bg px-5 py-2 font-bold  rounded-md'>Cart</button>
                 </div>
             </nav>
