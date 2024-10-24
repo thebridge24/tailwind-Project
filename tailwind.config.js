@@ -7,7 +7,12 @@ export default {
     
     extend: {
       colors: {
-        "twitter-blue" : "#1da1f2"
+        "dr-bg" : "#1C3434",
+        "tx-green" : "#2CF85A",
+        "ofw-drk" : "#EEEADF",
+        "ofw-lt" : "#F5F0EA",
+        "gry-lt" : "#C7C7C5"
+
       },
     },
   },

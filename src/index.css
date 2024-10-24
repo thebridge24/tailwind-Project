@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 * {
-    font-family: "times", "Times New Roman";
+    font-family: Helvetica, sans-serif;
 }
 
+.logo img {
+    height: 2rem
+}
